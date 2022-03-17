@@ -13,3 +13,14 @@ fun printCakeCandles(age: Int) {
     }    
     println()
 }
+
+#printCakeBottom()
+
+fun printCakeBottom(age: Int, layers: Int) {
+    repeat(layers) {
+        repeat(age + 2) {
+            print("@")
+        }
+        println()
+    }    
+}
