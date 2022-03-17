@@ -29,3 +29,26 @@ fun main() {
 fun printBorder() {
     println("=======================")
 }
+
+#=================================================================================
+# Repeat a border pattern
+
+fun printBorder() {
+    repeat(23) {
+        print("=")
+    }
+}
+
+#the final code:
+fun main() {
+    printBorder()
+    println("Happy Birthday, Jhansi!")
+    printBorder()
+}
+
+fun printBorder() {
+    repeat(23) {
+        print("=")
+    }
+    println()
+}
