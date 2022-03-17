@@ -14,3 +14,7 @@ fun main() {
     println("Happy Birthday, Jhansi!")
     println("=======================")
 }
+
+fun printBorder() {
+    println("=======================")
+}
